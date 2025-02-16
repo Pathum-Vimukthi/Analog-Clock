@@ -60,3 +60,23 @@ body{
     width: 6%;
     border-radius: 50%;
 }
+
+.marker{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    transform: rotate(calc(var(--i) * 30deg));
+}
+
+.marker_point{
+    width: 2%;
+    height: 6%;
+    background-color: orange;
+    margin: 5px;
+    border-radius: 15px;
+}
