@@ -11,7 +11,7 @@ function setTime(){
 
     //Set Rotation
     const secondsRotation = seconds * 6;
-    const minutesRotation = minutes * 6;
+    const minutesRotation = minutes * 6 + 0.1 * seconds;
     const hoursRotation = (hours % 12) * 30 + 0.5 * minutes;
 
     //Apply Rotation

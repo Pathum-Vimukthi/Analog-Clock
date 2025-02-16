@@ -1,5 +1,5 @@
 body{
-    background-color: blue;
+    background-color: #A9B5DF;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -11,8 +11,8 @@ body{
     width: 500px;
     max-height: 75vw;
     max-width: 75vw;
-    background-color: blue;
-    border: solid 1vw orange;
+    background-color: #A9B5DF;
+    border: solid 1vw #2D336B;
     border-radius: 50%;
     position: relative;
 
@@ -26,7 +26,7 @@ body{
     position: absolute;
     height: 40%;
     width: 1.5%;
-    background-color: orange;
+    background-color: #2D336B;
     transform-origin: 50% 100%;
     bottom: 50%;
     z-index: 10;
@@ -57,7 +57,7 @@ body{
 
 .center{
     z-index: 11;
-    background-color: orange;
+    background-color: #2D336B;
     height: 6%;
     width: 6%;
     border-radius: 50%;
@@ -78,7 +78,7 @@ body{
 .marker_point{
     width: 2%;
     height: 6%;
-    background-color: orange;
+    background-color: #2D336B;
     margin: 5px;
     border-radius: 15px;
 }
