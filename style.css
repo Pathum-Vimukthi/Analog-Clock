@@ -9,6 +9,8 @@ body{
 .clock{
     height: 500px;
     width: 500px;
+    max-height: 75vw;
+    max-width: 75vw;
     background-color: blue;
     border: solid 1vw orange;
     border-radius: 50%;
